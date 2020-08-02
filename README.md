@@ -21,7 +21,7 @@ The results of our analysis shows the following
 - The winner of the election was Diana DeGette with 272,892 votes and 73.8% of the total votes in this election.
 <img src="Resources/Election_Results_Screenshot.png" width="350">
 
-## Election-Audit Summary
+## Election-Audit Summary: to the Election Commission
 
 This code was very efficient in looping through the election data, and returning the accurate total votes and percentage breakdowns of each candidate and county. This code could be used for any election because it creates variables based on where the values are in the CVS file. This code is also universal because it displays the breakdown of the data but also displays the winner of the election. 
-Some modifications that could be made to the code would be combining the for loops to hold the necessary variables in one pass and to code the percentage of votes by candidate and county instead of calculating it.
+Some modifications that could be made to the code would be combining the for loops to hold the necessary variables in one pass and to code the percentage of votes by candidate and county instead of calculating it (see line 127).
